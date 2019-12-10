@@ -1,0 +1,29 @@
+{
+  "name": "alurabank",
+  "version": "1.0.0",
+  "description": "bank application from alura course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alura-projects/AluraBank.git"
+  },
+  "keywords": [
+    "bank",
+    "typescript",
+    "angular",
+    "web"
+  ],
+  "author": "leonardo goulart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alura-projects/AluraBank/issues"
+  },
+  "homepage": "https://github.com/alura-projects/AluraBank#readme",
+  "devDependencies": {
+    "typescript": "^2.3.2"
+  }
+}
