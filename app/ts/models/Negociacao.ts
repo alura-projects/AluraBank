@@ -1,43 +1,24 @@
 class Negociacao {
+    
+    constructor(private _data: Date, private _quantidade: number, private _valor: number) {}
 
-    _data;
-    _quantidade;
-    _valor;
+    get data() {
 
-    constructor ( data, quantidade, valor ) {
-
-        // if(!data){
-        //     throw new Error('Date cannot be empty')
-        // }
-
-        // if(!quantidade){
-        //     throw new Error('Quantity cannot be empty')
-        // }
-
-        // if(!valor){
-        //     throw new Error('Value cannot be empty')
-        // }
-
-        this._data = data;
-        this._quantidade = quantidade;
-        this._valor = valor;
-
+        return this._data;
     }
 
-    getData() {
-        return this._data
+    get quantidade() {
+
+        return this._quantidade;
     }
 
-    getQuantidade () {
-        return this._quantidade
+    get valor() {
+
+        return this._valor;
     }
 
-    getValor() {
-        return this._valor
-    }
+    get volume() {
 
-    getVolume() {
         return this._quantidade * this._valor;
     }
-
 }
